@@ -7,8 +7,9 @@ using namespace std;
 int main() {
     uint64_t a;
     uint64_t b;
+    uint64_t d;
     cin >> a >> b;
-    cout << (1<<b) << endl; //s
-    cout << int(ceil(double(1<<b)/a));
+    d = (uint64_t(1)<<b);
+    cout << int(ceil(double(d)/a));
     return 0;
 }
